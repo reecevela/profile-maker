@@ -59,6 +59,13 @@ $(document).ready( () => {
             sessionStorage.setItem("phone", phone);
             sessionStorage.setItem("dob", dob);
             sessionStorage.setItem("zip", zip);
+		
+		console.log(
+                sessionStorage.getItem("email"),
+                sessionStorage.getItem("phone"),
+                sessionStorage.getItem("dob"),
+                sessionStorage.getItem("zip")
+            )
             location = "profile.html";
         }
         
