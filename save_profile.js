@@ -55,10 +55,10 @@ $(document).ready( () => {
         
         if (isValid) { 
             // code that saves profile info goes here
-            localStorage.setItem("email", email);
-            localStorage.setItem("phone", phone);
-            localStorage.setItem("dob", dob);
-            localStorage.setItem("zip", zip);
+            sessionStorage.setItem("email", email);
+            sessionStorage.setItem("phone", phone);
+            sessionStorage.setItem("dob", dob);
+            sessionStorage.setItem("zip", zip);
             location = "profile.html";
         }
         
